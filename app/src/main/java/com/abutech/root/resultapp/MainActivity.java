@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void Check_Weather(View view){
         Getresult task=new Getresult();
-        task.execute("http://api.openweathermap.org/data/2.5/weather?q="+e1.getText().toString()+"&appid=dad5cc2d4dfac36abff0b602e752ca59");
+        task.execute("http://api.openweathermap.org/data/2.5/weather?q="+e1.getText().toString()+"&appid=YOUR API KEY");
     }
 
 }
